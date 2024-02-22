@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SummaryActivity">
+
+    <TextView
+        android:id="@+id/TVDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="155dp"
+        android:text="Details List"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <TextView
+        android:id="@+id/TVDay3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="299dp"
+        android:text="Current Day: 3"
+        android:textColor="#00020B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVAmountD2" />
+
+    <TextView
+        android:id="@+id/TVCategoryD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="136dp"
+        android:text="Category: Other Beverages (Sweetened)"
+        android:textColor="#00020B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVDay3" />
+
+    <TextView
+        android:id="@+id/TVAmountD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="290dp"
+        android:text="Amount: 100ml"
+        android:textColor="#00020B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVCategoryD3" />
+
+    <TextView
+        android:id="@+id/TVTotalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="134dp"
+        android:text="Total Amount of Water for 3 days: 300ml"
+        android:textColor="#3F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVSummary" />
+
+    <TextView
+        android:id="@+id/TVCategoryD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="107dp"
+        android:text="Category: Other Beverages (Non-Sweetened)"
+        android:textColor="#00020B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVDay2" />
+
+    <TextView
+        android:id="@+id/TVTotalPlainWater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="268dp"
+        android:text="Plain Water: 100ml"
+        android:textColor="#3F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVTotalAmount" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVTotalSweetened" />
+
+    <TextView
+        android:id="@+id/TVAmountD1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="288dp"
+        android:text="Amount: 100ml "
+        android:textColor="#00020B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVCategoryD1" />
+
+    <TextView
+        android:id="@+id/TVSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="141dp"
+        android:text="Summary"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVAmountD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="291dp"
+        android:text="Amount: 100ml"
+        android:textColor="#00020B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVCategoryD2" />
+
+    <TextView
+        android:id="@+id/TVTotalNonSweetened"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="172dp"
+        android:text="Non-Sweetened Bevarages: 100ml"
+        android:textColor="#3F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVTotalPlainWater" />
+
+    <TextView
+        android:id="@+id/TVDay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="299dp"
+        android:text="Current Day: 1"
+        android:textColor="#00020B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <TextView
+        android:id="@+id/TVCategoryD1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="252dp"
+        android:text="Category: Plain Water"
+        android:textColor="#00020B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVDay1" />
+
+    <TextView
+        android:id="@+id/TVTotalSweetened"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="201dp"
+        android:text="Sweetened Bevarages: 100ml"
+        android:textColor="#3F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVTotalNonSweetened" />
+
+    <TextView
+        android:id="@+id/TVDay2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="299dp"
+        android:text="Current Day: 2"
+        android:textColor="#00020B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVAmountD1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
